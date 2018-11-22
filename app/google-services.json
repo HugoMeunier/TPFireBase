@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1009340754733",
+    "firebase_url": "https://my-cellar-hugo.firebaseio.com",
+    "project_id": "my-cellar-hugo",
+    "storage_bucket": "my-cellar-hugo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009340754733:android:8f04bfb65778f2e0",
+        "android_client_info": {
+          "package_name": "com.example.meuni.tp7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009340754733-tj89ktnp0vbrj90qp5ibn3n4pgojnblu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meuni.tp7",
+            "certificate_hash": "5d581b7ef2af68f923ff843c6716b7a4ad794198"
+          }
+        },
+        {
+          "client_id": "1009340754733-cliv30jo1bdvnn0vjm85plldcjpa2t5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7A2h7Kr3q5yrr5rM8gcB-ZccuCGQm21I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009340754733-cliv30jo1bdvnn0vjm85plldcjpa2t5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

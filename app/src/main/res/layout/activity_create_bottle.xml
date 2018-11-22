@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meuni.tp7.CreateBottleActivity">
+
+
+    <Button
+        android:id="@+id/buttonCreateBottle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="231dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginStart="147dp"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextBottleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="BottleName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextBottlePrice"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextBottlePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="59dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCreateBottle"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

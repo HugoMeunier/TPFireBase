@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meuni.tp7.MainActivity">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="278dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCreateCellarOnline"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="76dp"
+        android:text="Create Cellar Online"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStart" />
+
+    <TextView
+        android:id="@+id/textViewCellarUrl"
+        android:layout_width="140dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="URL Response String"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCellarUrlTitle" />
+
+    <TextView
+        android:id="@+id/textViewCellarUrlTitle"
+        android:layout_width="142dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:text="String URL"
+        app:layout_constraintBottom_toTopOf="@+id/textViewCellarUrl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewJsonCellarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginTop="59dp"
+        android:text="Cellar Json"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewJsonCellar"
+        android:layout_width="133dp"
+        android:layout_height="151dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Json "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewJsonCellarTitle" />
+
+    <Button
+        android:id="@+id/buttonGetBottleOnline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginStart="156dp"
+        android:text="Get Bottle Online"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
